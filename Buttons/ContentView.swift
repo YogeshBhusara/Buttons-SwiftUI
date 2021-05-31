@@ -10,86 +10,55 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ScrollView{
-            VStack(spacing:40){
+            VStack{
                 Group{
-                    //----------------1-------------------
-                        Button("Default Button Style")
-                        {
-                            //Your Code Here
-                        }
-                    //----------------4-------------------
-                        Button(action: {})
-                            {
-                                Text("Solid Button")
-                                    .padding(20)
-                                    .foregroundColor(Color.white)
-                                    .background(Color.purple)
-                                    .cornerRadius(8)
-                        }
-                    //----------------5-------------------
-                        Button(action: {})
-                            {
-                                Text("Button With Shadow")
-                                    .padding(20)
-                                    .foregroundColor(Color.white)
-                                    .background(Color.purple)
-                                    .cornerRadius(8)
-                        }.shadow(color: Color.purple, radius: 20, y: 5)
-                    //----------------6-------------------
-                        Button(action: {})
-                            {
-                                Text("Button With Shadow")
-                                    .padding(20)
-                                    .foregroundColor(Color.white)
-                                    .background(Color.purple)
-                        }.shadow(color: Color(#colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)), radius: 0 , x: 4, y: 10)
-                    //----------------7-------------------
-                        Button(action: {})
-                            {
-                                Text("Solid Button")
-                                    .padding(EdgeInsets(top: 12, leading: 20, bottom: 12, trailing: 20))
-                                    .foregroundColor(Color.white)
-                                    .background(Color.purple)
-                                    .cornerRadius(.infinity)
-                            
-                        }
-                    //----------------8-------------------
+                        Text("Buttons")
+                            .font(.system(size: 30, weight: .semibold, design: .rounded))
+                            .textCase(/*@START_MENU_TOKEN@*/.uppercase/*@END_MENU_TOKEN@*/)
+                            .foregroundColor(Color(#colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)))
+                    
+                    //----------------Button Code-------------------
+                    ZStack{
+                        //Background colored box for button
+                        RoundedRectangle(cornerRadius: 0)
+                            .foregroundColor(Color(#colorLiteral(red: 0.8752581477, green: 0.935546577, blue: 0.9649932981, alpha: 1)))
+                            .frame(width: .infinity, height: 180)
+                        
+                        //Button
                         Button(action: {})
                         {
-                            Text("Square Border Button")
-                                .padding()
-                                .foregroundColor(Color.purple)
-                                .border(Color.purple)
-                        }.shadow(color: Color.purple, radius: 4 , x: 4, y: 4)
-
-                    //----------------9-------------------
-                        Button(action: {})
-                        {
-                            ZStack{
-                                Image("galaxy1")
-                                // Change rendering mode to original
-                                    .renderingMode(.original)
-                                    .cornerRadius(100)
-                                Text("Button with button image")
-                                    .foregroundColor(.white)
-                                    .font(.title2)
-                            }
+                            Text("Click Here")
+                                // Text Font, Weight, Style
+                                .font(.system(size: 20, weight: .semibold, design: .monospaced))
+                                // Button Size
+                                .frame(width: 200, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                // Text Color
+                                .foregroundColor(Color(#colorLiteral(red: 0.01441679057, green: 0.3832033575, blue: 0.9840436578, alpha: 1)))
+                                // Button Color
+                                .background(
+                                    ZStack{
+                                        Color(#colorLiteral(red: 0.8277149796, green: 0.8772930503, blue: 0.9521666169, alpha: 1))
+                                        RoundedRectangle(cornerRadius: 16, style:.continuous)
+                                            .foregroundColor(.white)
+                                            .blur(radius: 4)
+                                            .offset(x: -8, y: -8)
+                                        RoundedRectangle(cornerRadius: 16, style:.continuous)
+                                            .foregroundColor(Color(#colorLiteral(red: 0.8277149796, green: 0.8772930503, blue: 0.9521666169, alpha: 1)))
+                                            .padding(2)
+                                            .blur(radius: 1)
+                                    }
+                                )
+                                // Button Corner Radius
+                                .clipShape(RoundedRectangle(cornerRadius: 16, style:.continuous))
+                                // Outer Drop Shadow
+                                .shadow(color: Color(#colorLiteral(red: 0.4838517904, green: 0.6031783819, blue: 0.9070652127, alpha: 1)), radius: 10, x: 10, y: 10)
+                                .shadow(color: Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)), radius: 10, x: -10, y: -10)
                         }
-
-                    //----------------10-------------------
-                        Button(action: {})
-                            {
-                                Text("Solid Button")
-                                    .padding()
-                                    .foregroundColor(Color.white)
-                                    .background(Color.purple)
-                                    .cornerRadius(8)
-                        }
+                    }
+                    
                 }
             }
-            .frame(maxWidth: .infinity)
         }
-        .padding()
         .edgesIgnoringSafeArea(.bottom)
     }
 }
