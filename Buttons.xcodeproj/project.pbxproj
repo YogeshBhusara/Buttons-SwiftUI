@@ -11,6 +11,11 @@
 		C587B5432660CE4900E3DC3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C587B5422660CE4900E3DC3A /* ContentView.swift */; };
 		C587B5452660CE4A00E3DC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C587B5442660CE4A00E3DC3A /* Assets.xcassets */; };
 		C587B5482660CE4A00E3DC3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C587B5472660CE4A00E3DC3A /* Preview Assets.xcassets */; };
+		C592949D26899EE100C4ED41 /* Neographism_White.swift in Sources */ = {isa = PBXBuildFile; fileRef = C592949C26899EE100C4ED41 /* Neographism_White.swift */; };
+		C592949F26899FCB00C4ED41 /* Skeu_Blue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C592949E26899FCB00C4ED41 /* Skeu_Blue.swift */; };
+		C59294A12689A02B00C4ED41 /* Dark_Choco.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59294A02689A02B00C4ED41 /* Dark_Choco.swift */; };
+		C59294A32689A05200C4ED41 /* Glassy_Purple.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59294A22689A05200C4ED41 /* Glassy_Purple.swift */; };
+		C59294A52689A09000C4ED41 /* SolidShadow_Pink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59294A42689A09000C4ED41 /* SolidShadow_Pink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		C587B5442660CE4A00E3DC3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C587B5472660CE4A00E3DC3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C587B5492660CE4A00E3DC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C592949C26899EE100C4ED41 /* Neographism_White.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neographism_White.swift; sourceTree = "<group>"; };
+		C592949E26899FCB00C4ED41 /* Skeu_Blue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skeu_Blue.swift; sourceTree = "<group>"; };
+		C59294A02689A02B00C4ED41 /* Dark_Choco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dark_Choco.swift; sourceTree = "<group>"; };
+		C59294A22689A05200C4ED41 /* Glassy_Purple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glassy_Purple.swift; sourceTree = "<group>"; };
+		C59294A42689A09000C4ED41 /* SolidShadow_Pink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidShadow_Pink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			children = (
 				C587B5402660CE4900E3DC3A /* ButtonsApp.swift */,
 				C587B5422660CE4900E3DC3A /* ContentView.swift */,
+				C59294A42689A09000C4ED41 /* SolidShadow_Pink.swift */,
+				C59294A22689A05200C4ED41 /* Glassy_Purple.swift */,
+				C59294A02689A02B00C4ED41 /* Dark_Choco.swift */,
+				C592949E26899FCB00C4ED41 /* Skeu_Blue.swift */,
+				C592949C26899EE100C4ED41 /* Neographism_White.swift */,
 				C587B5442660CE4A00E3DC3A /* Assets.xcassets */,
 				C587B5492660CE4A00E3DC3A /* Info.plist */,
 				C587B5462660CE4A00E3DC3A /* Preview Content */,
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C592949D26899EE100C4ED41 /* Neographism_White.swift in Sources */,
+				C592949F26899FCB00C4ED41 /* Skeu_Blue.swift in Sources */,
 				C587B5432660CE4900E3DC3A /* ContentView.swift in Sources */,
+				C59294A12689A02B00C4ED41 /* Dark_Choco.swift in Sources */,
+				C59294A52689A09000C4ED41 /* SolidShadow_Pink.swift in Sources */,
+				C59294A32689A05200C4ED41 /* Glassy_Purple.swift in Sources */,
 				C587B5412660CE4900E3DC3A /* ButtonsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
