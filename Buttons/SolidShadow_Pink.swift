@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SolidShadow_Pink: View {
+    
     var body: some View {
         //----------------Button Code-------------------
         ZStack{
@@ -19,11 +20,11 @@ struct SolidShadow_Pink: View {
             //Button
             Button(action: {})
             {
-                Text("Click Here")
+                Text("Tap Here")
                     // Text Font, Weight, Style
                     .font(.system(size: 20, weight: .semibold, design: .monospaced))
                     // Button Size
-                    .frame(width: 200, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 300, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     // Text Color
                     .foregroundColor(Color(#colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)))
                     // Button Color

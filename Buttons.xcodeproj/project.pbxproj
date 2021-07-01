@@ -16,6 +16,7 @@
 		C59294A12689A02B00C4ED41 /* Dark_Choco.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59294A02689A02B00C4ED41 /* Dark_Choco.swift */; };
 		C59294A32689A05200C4ED41 /* Glassy_Purple.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59294A22689A05200C4ED41 /* Glassy_Purple.swift */; };
 		C59294A52689A09000C4ED41 /* SolidShadow_Pink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59294A42689A09000C4ED41 /* SolidShadow_Pink.swift */; };
+		C59294A7268B142C00C4ED41 /* Floating_Black.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59294A6268B142C00C4ED41 /* Floating_Black.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C59294A02689A02B00C4ED41 /* Dark_Choco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dark_Choco.swift; sourceTree = "<group>"; };
 		C59294A22689A05200C4ED41 /* Glassy_Purple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glassy_Purple.swift; sourceTree = "<group>"; };
 		C59294A42689A09000C4ED41 /* SolidShadow_Pink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidShadow_Pink.swift; sourceTree = "<group>"; };
+		C59294A6268B142C00C4ED41 /* Floating_Black.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floating_Black.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				C587B5402660CE4900E3DC3A /* ButtonsApp.swift */,
 				C587B5422660CE4900E3DC3A /* ContentView.swift */,
+				C59294A6268B142C00C4ED41 /* Floating_Black.swift */,
 				C59294A42689A09000C4ED41 /* SolidShadow_Pink.swift */,
 				C59294A22689A05200C4ED41 /* Glassy_Purple.swift */,
 				C59294A02689A02B00C4ED41 /* Dark_Choco.swift */,
@@ -160,6 +163,7 @@
 				C59294A52689A09000C4ED41 /* SolidShadow_Pink.swift in Sources */,
 				C59294A32689A05200C4ED41 /* Glassy_Purple.swift in Sources */,
 				C587B5412660CE4900E3DC3A /* ButtonsApp.swift in Sources */,
+				C59294A7268B142C00C4ED41 /* Floating_Black.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

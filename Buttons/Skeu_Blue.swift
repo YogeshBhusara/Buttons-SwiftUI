@@ -19,11 +19,11 @@ struct Skeu_Blue: View {
             //Button
             Button(action: {})
             {
-                Text("Click Here")
+                Text("Tap Here")
                     // Text Font, Weight, Style
                     .font(.system(size: 20, weight: .semibold, design: .monospaced))
                     // Button Size
-                    .frame(width: 200, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 300, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     // Text Color
                     .foregroundColor(Color(#colorLiteral(red: 0.01441679057, green: 0.3832033575, blue: 0.9840436578, alpha: 1)))
                     // Button Color

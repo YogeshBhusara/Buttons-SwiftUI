@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-   // @State private var buttonChange = false // For button animation intial state declaration
     
     var body: some View {
         ScrollView{
@@ -20,11 +19,13 @@ struct ContentView: View {
                         .textCase(/*@START_MENU_TOKEN@*/.uppercase/*@END_MENU_TOKEN@*/)
                         .foregroundColor(Color(#colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)))
                     
+                    //Buttons
                     Neographism_White()
                     Skeu_Blue()
                     Dark_Choco()
                     Glassy_Purple()
                     SolidShadow_Pink()
+                    Floating_Black()
                 }
             }
         }

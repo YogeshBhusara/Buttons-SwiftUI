@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct Neographism_White: View {
+    @State private var buttonChange = false // For button animation intial state declaration
+    
     var body: some View {
         //----------------Button Code-------------------
         ZStack{
@@ -19,11 +21,11 @@ struct Neographism_White: View {
             //Button
             Button(action: {})
             {
-                Text("Click Here")
+                Text("Tap Here")
                     // Text Font, Weight, Style
                     .font(.system(size: 20, weight: .semibold, design: .monospaced))
                     // Button Size
-                    .frame(width: 200, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 300, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     // Text Color
                     .foregroundColor(Color(#colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)))
                     // Button Color
